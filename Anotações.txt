@@ -1,0 +1,19 @@
+
+>> Um Pouco de Historia do .Net <<
+Em 1999 - Anders Hejlsberg começou a Trabalhar no C#
+Em 2000 - Microsoft lanca o ambiente de dsenvolvimento .Net 1.0
+Em 2001 - Miguel de Icaza começa a trabalhar no projeto Mono,uma reimplementação black Box do .net , open source e Multiplataforma (nao trabalha na Mcrosoft)
+Em 2002 - Lançamento do Visual Studio .Net com C# 1.0
+Em 2003 - Lançamento do .Net 1.1 com Visual Studio 2003 - Trabalham em melhorias na CLR para lançar o CLR2
+Em 2005 - Lançamento do >net 2.0 com C# 2.0 no Visual Studio 2005 - Microsoft começõu a atingir seu objetivo inicial ,inclusive evoluindo na web
+Em 2007-2008 - Lançamento do .net 3.5 com c# 3.0 no VS 2008 , com Silverlight , WPF e WCF | Microsoft contrata um time de pessoas tinham uma pegada open source
+Em 2010 - Lançamento do .Net com C# no VS 2010 - Lança o Windows Azure | Anders Hejlsberg começa a trabalhar no Typescript
+Em 2011 - Miguel de Icaza Inicia Xamarin , Basicamente ele desenvolvia em C# aplicativos que rodam em Android e IOS
+Em 2012 - Lançamento do .Net 4.5 com C# no VS 2012 | Lançamento do Typescript
+Em 2013 - Lançamento do .Net 4.5.1 no VS 2013 | Inicio do Roslyn , um novo compilador para C# e VB.net
+>> temos aqui o ASP.NET mais consolidado MVC,Web API e SignaIR
+Em 2014 - 
+
+
+
+
