@@ -1,3 +1,7 @@
+# Esse Arquivo está todas as minhas anotações sobre cursos de .Net com C#.
+# O Documento em sí nao possui vinculo nenhum com projetos que estão nesse Repositório
+# O foco desse documento e simplesmente fazer anotações e nada mais.
+# Create for Ives Camiloto (Ivão)
 
 >> Um Pouco de Historia do .Net <<
 Em 1999 - Anders Hejlsberg começou a Trabalhar no C#
@@ -12,8 +16,56 @@ Em 2011 - Miguel de Icaza Inicia Xamarin , Basicamente ele desenvolvia em C# apl
 Em 2012 - Lançamento do .Net 4.5 com C# no VS 2012 | Lançamento do Typescript
 Em 2013 - Lançamento do .Net 4.5.1 no VS 2013 | Inicio do Roslyn , um novo compilador para C# e VB.net
 >> temos aqui o ASP.NET mais consolidado MVC,Web API e SignaIR
-Em 2014 - 
+Em 2014 - Satya Nadella se Torna CEO da Microsoft e direciona o foco da empresa para cloud | Criação do .Net Foundation para gestão de projetos Open-source
+>> Widows Azure passa a se chamar Microsoft Azure | É introduzido e conceito do Asp.Net VNext.
+Em 2016 - Lançamento do .net Core 1.0 - totalmente novo , open source e multiplataforma
+Em 2019 - Lançamento do .net Framework 4.8 com C#7.3 no VS2019 | Lançamento do .net Core 2.0 com C# 8.0 no VS 2019 , VSCode ou VS for Mac 2019
+Em 2020 - .Net Framework está pronto na versão 4.8 | outras coisas deixa de ser evoluido - junto com ele WCF e ASP.Net Webforms 
+>> Previsto lançamento do .Net 5 !
 
+--------------------------------------------------------------------
+
+Parte 2. - O que é, Como e onde usar .net
+>> Introdução ao .net
+    O que é ? Infraestrutura para desenvolvimento de software criada pela Microsoft
+    Uma Aplicação .Net é desenvolvida para e roda em uma das seguintes implementações do .net:
+        1. .net Core
+        2. .net Framework
+        3. Mono
+        4. Universal Windows Plataform (UWP)
+    .Net Standard Library  : Um contraro que possui todas as funções das citadas do .net acima
+        Uma Biblioteca que tem tudo!
+    
+    Como ? cada implementação inclui um ou mais .Net Runtimes (ambiente de execução)
+    Atualmente a Microsoft desenvolve e suporta 3 liguangens para .Net , são elas :
+        1. C#
+        2. F#
+        3. VB    
+    Aonde usar o DotNet ? 
+        Desktop(WPF | Windows Forms | UWP)  
+        web(ASP.NET)  
+        Cloud(azure)  
+        Mobile(Xamarin)  
+        Gaming(unity)  
+        Iot(ARM32 e ARM64)  
+        AI (MLNET | .net for Apache Spark)
+>> Iniciando com .net
+   1. Preparar o ambiente
+     Download .Net 3.1 SDK
+     Download VS Code
+   2. Conhecendo a CLI do .Net
+     dotnet --help : Traz a documentação na linha de comando do dotnet
+   3. Crianco uma Aplicação console 
+     Uma Aplicação que será criada via Console , simples
+     Comando utilizados com frequencia :
+        dotnet restore : restaura os pacotes da Aplicação
+        dotnet build : restaura pacotes e pega o codigo fonte e compila o projeto e gera os binario
+        dotnet run : executa o projeto
+    Console.Writeline(""); >> mostra uma mensagem no Console pulando uma linha por mensagem.
+    Sempre executar o donet build/run no diretório do csproj , senão ele irá dar erro.
+    
+
+    
 
 
 
