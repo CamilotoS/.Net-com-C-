@@ -63,7 +63,30 @@ Parte 2. - O que é, Como e onde usar .net
         dotnet run : executa o projeto
     Console.Writeline(""); >> mostra uma mensagem no Console pulando uma linha por mensagem.
     Sempre executar o donet build/run no diretório do csproj , senão ele irá dar erro.
-    
+Conhecendo o C#
+>> O que é e como funciona o C#
+  Conhecendo o C#
+    1. O que é C#?
+      C# é uma linguagem elegante , orientada a obj e fortemente tipada
+      A sintax do C# é similar a do C,C++ ou java
+
+      Os programas em c# são executados no .Net  que inclui:
+      > CLR
+      > Conjunto unificado de bibliotecas de classes
+      Atualmente o compilador do C# é o Roslyn
+    2. Como Funciona?
+      Codigo fonte é compilado em uma linguagem intermediario
+      O código e os recursos de IL são armazenados no disco em um arquivo executavel chamado Assembly geramlente com um extensão .exe ou .dll
+      Quandoo programa C# e executado , o assembly é carregado CLR
+      Em Seguida o CLR executar a complicação "Just in time" para conversar em IL e depois em linguagem de maquina
+      O CLR tambem fornece outros serviços , como :
+      > Garbage Collector
+      > Exception Handler
+      > Resoources Manager
+      Além dos serviços de tempo de execução o .Net tambem inclui uma extensa biblioteca com milhares de classes que fornecem uma ampla variedade de funcionalidades.
+      
+
+
 
     
 
