@@ -84,8 +84,121 @@ Conhecendo o C#
       > Exception Handler
       > Resoources Manager
       Além dos serviços de tempo de execução o .Net tambem inclui uma extensa biblioteca com milhares de classes que fornecem uma ampla variedade de funcionalidades.
-      
+    3. Estrutura do programa 
+       Os programas C# consistem em um ou mais arquivos
+       Os Programas declaram tipos , que contem membros e podem ser organizados em namespace
+       Classes e interfaces são exemplos de tiposCampo , metodos , propriedades e eventos
+Conhecendo Variaveis e Instruções
+  Tipos de Valor
+    Variasveis de tipos de valor contem diretamente seus dados
+    As variaveis têm sua própria cópia dos dados e não é possivel que as operações afetem outra variavel (exceto no caso das variaveis de parametro ref ou out)
 
+    Tipor Numericos : sbyte ,shoet , int , long , uint , ulong
+    Tipos Caracteres Unicode : char
+    Pontos flutuantes : float , double , decimal
+    Booleano:bool
+
+    Variaveis de tipo de referencia armazenam referencias a seus dados
+    É possivel que duas variaveis façam referencia ao mesmo objeto e,portanto,que operções em uma variavel afetem o objeto referenciado
+
+    Tipos de Referencia , tipos de classe : class , object , string
+    Tipos Array : int[],int[,] etc...     
+
+  Instruções 
+    São ações de um program são expressas usando Instruções
+    {
+      Um bloco permite que varias instruções sejam escritas
+      Metodo de declaração :
+      int a;
+      int b = 2, c = 3
+      const int d = 4;
+      a = 1;
+      Console.WriteLine(a+b+c+d);
+    }
+
+    Declarações de variaveis e constantes locais , como :
+------------------------------------------------------------------------    
+      > If
+        If(args.Length == 0){
+          Console.WriteLine("Nenhu argumento");
+        }
+        else if(args.Length == 1){
+          Console.WriteLine("Um argumento");
+        }
+------------------------------------------------------------------------
+      > Switch
+        int numeroDeArgumentos = args.Length;
+
+        switch(numeroDeArgumentos)
+          {
+            case 0 :
+                    code//
+                    break;
+            case 1 :
+                    code//
+                    break;
+            default:
+                    code//
+                    break;
+          }
+------------------------------------------------------------------------          
+      > While
+        {
+          int i = 0;
+          while (i < args.Length)
+          {
+            Console.WriteLine(args[i]);
+            i++;
+          }
+
+        }
+------------------------------------------------------------------------        
+      > do
+        {
+          string texto;
+          do{
+            texto = console.Readline();
+            Console.WriterLine(texto);
+          } while (!string.IsNullOrEmpty(texto))
+        }
+------------------------------------------------------------------------        
+      > for
+        {
+          for(int i = 0 ; i < n; i++){
+            Console.WriteLine(args[i]);
+          }
+        }
+------------------------------------------------------------------------                
+      > foreach
+        {
+          foreach(string s in args)
+            	{
+                Console.WriteLine(s);
+              }
+        }
+------------------------------------------------------------------------                
+    Tratativas de exeções :
+      > break
+        {
+          while (true)
+          { 
+              string s = console.Readline();
+              if(string.IsNullorEmpty(s)){
+                break;
+            }
+             Console.Writeline(s);
+          }
+        }
+------------------------------------------------------------------------                         
+      continue
+      return
+      try , catch  .. finally
+      using
+      throw
+      
+int[10] << Array unidimensional
+int[10 , 0 , 2 ] << Array Multidimensional
+  
 
 
     
