@@ -199,9 +199,52 @@ Conhecendo Variaveis e Instruções
 int[10] << Array unidimensional
 int[10 , 0 , 2 ] << Array Multidimensional
   
+Classes e objetos essenciais em C#
+  Classes são os tipos mais fundamentaris 
+  Uma classe é uma estrutura de dados que combina estado(campos) ações(metodos)  
+  As classes suportam herança e polimorfismo,mecanisos pelos quais as classes derivadas podem estender e especializar as classas Basicamente
+  Instancias de classes (objetos) são criadas usando o operador new, que aloca memória para uma nova instancia , chaa um construtor para inicializar a instancoa e retorna uma referencia á instancia
+
+  Exemplo{
+    ponto p1 = new Ponto(0 , 0);
+    Ponto p2 = new Ponto(10,20);
+  }
+
+  A memória ocupada por um objeto é recuperada automaticamente quando o objeto não está mais acessivel.Não é necessario desaloar o objetos
+  Os membros de uma classe podem ser estáticos ou membros da instância
+  Membros estáticos pertencem a classas e membros de  instancia 
+
+  Acessibilidade :
+    public : todos acessam
+    protected : Apenas as classes que herdam dessa base pode acessar
+    internal : ele só é acessado dentro do Assembly que é acessado
+    private : Indica que é usado só apenas dentro da classe que ela está imbutido
+
+  Herança :
+    Uma Declaração de classe pode especificar uma classe base , herdando os membros public,internal e protected da classe base
+    Omitir uma especificação de classe base é o mesmo que derivar do tipo object
+  
+  Metodos :
+    Um método é um membro que implementa uma computação ou ação que pode ser executada por um objeto ou classe
+    Os métodos podem ter uma lista de parametros,que representam valores ou referencias de variaveis passados para o método,e um tipo de retorno , que especifica o tipo do valor calculado e retornado pelo método.
+  
+  Struct :
+    As struct são estrutura de dados que podem conter membros de dados e membros de ação , mas , diferentemente das classes , as structs são tipos de valor e não requerem alocação de heap
+    Uma variavel de um tipo de struct armazena direamente os dados da estrutura , enquanto uma variavel de um tipo de classe armazena referencia a uma objeto alocado na memoria
+    Structs nao aceitam herança determinada pelo desenvolvedor
+    Contrutures de Struct são chamadas com o operador new , semelhante a um construtor de classe , mas em vez de alocar dinamicamente um objeto no heap gerenciado e retornar uma referencia a ele,um construtor ctruct simplesmente retorna o proprio valor Struct,e esse valor é copiado conforme necessário.
+
+  Interface :
+    Uma interface define um contrato que pode ser implementado por classes e Structs | Uma interface pode conter método , propriedades , eventos e indexadores.
+    Uma interace não fornece Implementações dos membros que define - apenas suas "Assinaturas"
+    As Interfaces podem empregar herança multipla.
+Parte 3 : enum
+  enum :
+    Um enum é um tipo de valor distinto com um conjunto de constantes nomeadas.
+         
 
 
-    
+
 
 
 
