@@ -19,16 +19,16 @@ namespace Revisao
 
                 switch (opt)
                 {
-                    case 1:
+                    case "1":
                         Console.WriteLine($"Escolheu a Opção de numero {opt}");
                         break;
-                    case 2:
+                    case "2":
                         Console.WriteLine($"Escolheu a Opção de numero {opt}");
                         break;
-                    case 3:
+                    case "3":
                         Console.WriteLine($"Escolheu a Opção de numero {opt}");
                         break;
-                    case 4:
+                    case "4":
                         Console.WriteLine($"Escolheu a Opção de numero {opt}");
                         break;
                     default:
@@ -36,7 +36,7 @@ namespace Revisao
                         break;
 
                 }   
-            }while(opt != 5);
+            }while(opt != "5");
         }
 
         private static void opc()

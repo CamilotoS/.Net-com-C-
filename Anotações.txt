@@ -241,7 +241,64 @@ Classes e objetos essenciais em C#
 Parte 3 : enum
   enum :
     Um enum é um tipo de valor distinto com um conjunto de constantes nomeadas.
-         
+
+Desenvolvimento de Aplicações com .NET
+  Entity Framework  
+    é um ORM que permite que os desenvolvedores de .NET trabalhem com um bando de dados usando objetos .NET.Elimina a necessidade da maioria do código de acesso a dados que os desenvolvedores geralmente precisam gravar
+    Possui 3 linhas Principais linhas de utilização
+      Database First
+      Model First
+      Code First
+    Principal Atributos
+      Required : Significa campo obrigatório
+      RegularExpression:valida o campo por expressão Expression Regular
+      Display : Nome a ser Mostrado em todas as interfaces de usuário
+      StringLength:Determina a quantidade máxima de caracteres que poderá ser informada
+      MinLength : Determina a quantidade mínima de caracterres que poderá ser informada
+      Range : define a faixa de dados aceita pela propriedades
+      DisplayFormat: Formato a ser exibido nas interfaces de usuário
+    Migration
+      é um recurso que oferece uma maneira de atualizar de forma incremental o esquema de banco de dados para manter em sincronia com o modelo de classe do seu projeto preservando os dados existentes no banco de dados.
+      Tambem é possivel realizar Downgrade caso você deseje voltar o seu banco de dados para a versão anterior em que se encontrava.
+      CreateDatabaseifNome
+      DropCreateDatabasearryas : O entity Framework apaga o banco de dados e o recria sempre que o projeto é executado fazendo com que você perca todos os seus dados ao iniciá-lo
+      DropCreateDatabaseModelChanges:Apaga seu BD e o recria sempre que identificar uma alteração no seu modelo de classes.
+  Padrão MVC
+    é um padrão de arquitetura que divide a aplicação em tres camadas: a visão(view),o Modelo(model)e o controlador(controller)
+    Padraão muito utilizado devido a sua arquitetura possibilita separar o projeto em camadas onde cada uma delas executa o que lhe é definido e nada mais.
+    Esse padrão pode ser aplicado em diversos tipos de projetos como,por exemplo , desktop , web e mobile.
+    Traz como beneficio o isolamento das regras de negocio da interface do usuario , o que permite que exista várias Interfaces de usuários que podem ser modificadas sem afetar a regra do negocio.
+  Camada Model 
+    É a camada responsavel pela leitura e escrita de dados, e tamvem de suas validações.
+  Camada view
+    Cama de Interação do usuario , Area visivel
+  Camada controller
+    É a camada responsavel por receber todas as requisições e por controlar qual model usar e qual view será mostrado ao usuário.
+
+  HTTP Verb
+    Os HTTP Verbs são metodos do protocolo http que informam ao servidor qual ação ele deve executar.
+      GET : Busca recursos | cache 
+      Post : Criar um novo recurso
+      PUT | Patch : Atualizar um recurso existente
+      Delete : Remover um recurso
+  Razor
+    O razor é uma view Engine utilizada no ASP .NET MVC.
+    O seu princiap Objetivo é simplificar o desenvolvimento de aplicação ASP .NET pois ele deixa o código mais simples , facil e legível
+    Beneficios :
+      Menor curva de Aprendizagem
+      Possui sintaxe limpa 
+      o VS possui Inteligence agilizando o processo de trabalho
+  Middlewares
+    São Componenetes(classes) que é executado em todas as solicitações na aplicação ASP .NET
+    Normalmente existe vários middlewares na aplicação e nós definimos a Ordem em que são executados.
+    Cada middleware adiciona ou modifica a solicitação http e pode passar o controle para o proximo middleware
+  Startup
+    Como o proprio nome diz . a classe Statup.cs é responsavel por ser o ponto inciaç do projeto.Dentro dela existe métodos que são responsáveis por configurarem o projeto.São eles:
+      CunfigureServices
+      Configure : Controla o pipeline da aplicação
+  
+    
+  
 
 
 
